@@ -6,6 +6,10 @@ import sys
 import numpy as np
 
 
+import urllib2
+response = urllib2.urlopen("http://www.baidu.com")
+html = response.read()
+print html
 
 
 # part_1 = pd.read_csv('F:\data\heath\mp.csv')
